@@ -1,6 +1,7 @@
 package Solution01;
 
 import java.util.Scanner;
+// Harmonic Series
 
 public class Solution01 {
     public static void main(String[] args) {
