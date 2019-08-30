@@ -9,6 +9,9 @@ public class Solution02 {
         int paise;
         Scanner scan = new Scanner(System.in);
         Rupay = scan.nextDouble();
+        rupay1 = (int) Rupay;
+        paise = (int) ((Rupay - rupay1) * 100);
+        System.out.println(rupay1 + " Ruppees " + paise + " Paise");
 
     }
 
