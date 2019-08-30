@@ -8,6 +8,9 @@ public class Solution01 {
         double sum = 0.0;
         Scanner scan = new Scanner(System.in);
         n = scan.nextInt();
-
+        for (int i = 1; i <= n; i++) {
+            sum = sum + 1.0 / i;
+        }
+        System.out.println(sum);
     }
 }
