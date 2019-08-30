@@ -8,6 +8,8 @@ public class Solution03 {
         double celsius;
         Scanner scan = new Scanner(System.in);
         fahrenheit = scan.nextDouble();
+        celsius = (fahrenheit - 32) / 1.8;
+        System.out.println(celsius);
 
     }
 
